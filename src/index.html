@@ -1,76 +1,185 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Merriweather:wght@300;400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.min.css" />
 
-    <title>DropLine</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__top">
-          <a href="/" class="logo">
-            <img src="pictures/logo.svg" alt="Dropline" class="nav__logo" />
-          </a>
-          <div class="header__desc">
-            Крупнейший поставщик металлоконструкций различного назначения с
-            2013г
-          </div>
-          <a class="header__promo" href="#" target="_blank">
-            <img src="pictures/location.svg" alt="location" />
-            Рубежная д.2
-          </a>
-          <div class="header__promo">
-            <img src="pictures/time.svg" alt="time" />
-            <div class="header__promo__text">
-              График работы ПН – ПТ с 9 до 20
-            </div>
-          </div>
-          <div class="header__btns">
-            <a href="#"><img src="pictures/wa.svg" alt="WhatsApp" /></a>
-            <div class="header__call">Перезвоните мне</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Merriweather:wght@300;400;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.min.css" />
+
+  <title>DropLine</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <a href="/" class="logo">
+          <img src="pictures/logo.svg" alt="Dropline" class="nav__logo" />
+        </a>
+        <div class="header__desc">
+          Крупнейший поставщик металлоконструкций различного назначения с
+          2013г
+        </div>
+        <a class="header__promo" href="#" target="_blank">
+          <img src="pictures/location.svg" alt="location" />
+          Рубежная д.2
+        </a>
+        <div class="header__promo">
+          <img src="pictures/time.svg" alt="time" />
+          <div class="header__promo__text">
+            График работы ПН – ПТ с 9 до 20
           </div>
         </div>
-        <div class="header__bottom">
-          <div class="header__nav">
-            <a href="/" class="header__nav__link">Главная</a>
-            <a href="#" class="header__nav__link">Продукция</a>
-            <a href="#" class="header__nav__link">Услуги</a>
-            <a href="#" class="header__nav__link">Оплата и доставка</a>
-            <a href="#" class="header__nav__link">Контакты</a>
-          </div>
-          <div class="header__phone">
-            <a href="tel:+7(495)123-45-67" class="header__phone-number">
-              8 (812) 309 02 90
-            </a>
-          </div>
+        <div class="header__btns">
+          <a href="#"><img src="pictures/wa.svg" alt="WhatsApp" /></a>
+          <div class="header__call">Перезвоните мне</div>
         </div>
       </div>
-    </header>
-    <div class="promo">
-      <div class="container">
+      <div class="header__bottom">
+        <div class="header__nav">
+          <a href="/" class="header__nav__link">Главная</a>
+          <a href="#" class="header__nav__link">Продукция</a>
+          <a href="#" class="header__nav__link">Услуги</a>
+          <a href="#" class="header__nav__link">Оплата и доставка</a>
+          <a href="#" class="header__nav__link">Контакты</a>
+        </div>
+        <div class="header__phone">
+          <a href="tel:+7(495)123-45-67" class="header__phone-number">
+            8 (812) 309 02 90
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="promo">
+    <div class="container">
+      <div class="promo__wrapper">
         <div class="promo__inner">
-          <h1>Металлоконструкции любой сложности</h1>
+          <h1>Металлоконструкции <br /><span>любой сложности</span></h1>
           <div class="promo__subtitle">
             Отправьте заявку и получите расчет стоимости вашей
-            металлоконструкции прямо сейчас!
+            металлоконструкции <span>прямо сейчас!</span>
           </div>
           <div class="promo__btn">
-            <img src="pictures/Логотип.png" alt="">
+            <img src="pictures/calculate.png" alt="calculate">
             <div class="btn">
               Получить расчет
             </div>
           </div>
         </div>
+        <div class="promo__cart__wrapper">
+          <img src="pictures/figure.svg" alt="figure" class="promo__cart__img">
+          <div class="promo__cart__block">
+
+            <div class="promo__cart__text">
+              <div class="promo__cart__circle">
+                <div></div>
+              </div>
+              Точность размеров
+              до миллиметра
+            </div>
+            <div class="promo__cart__text">
+              <div class="promo__cart__circle">
+                <div></div>
+              </div>
+              Срок изготовления
+              конструкции до
+            </div>
+            <div class="promo__cart__days">
+              <div class="promo__cart__circle"></div>
+              <img src="pictures/7.svg" alt="7">
+              <div>Дней</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="arrow">
+      Посмотреть
+      нашу
+      продукцию
+      <img src="pictures/arrow.svg" alt="arrow">
+    </div>
+  </section>
+  <section class="products">
+    <div class="container">
+      <h2 class="title">
+        Продукция <br />
+        <span>DropLine</span>
+      </h2>
+      <div class="products__wrapper">
+        <div class="products__item">
+          <div class="products__title">
+            Заборы, отбойники<br/>
+            и ограничители
+            <img src="pictures/arrow-product.svg" alt="arrow">
+          </div>
+          <div class="products__img">
+            <img src="pictures/item1.png" alt="product">
+          </div>
+        </div>
+        <div class="products__item">
+          <div class="products__title">
+            Складское<br/>
+            оборудование
+            <img src="pictures/arrow-product.svg" alt="arrow">
+          </div>
+          <div class="products__img">
+            <img src="pictures/item2.png" alt="product">
+          </div>
+        </div>
+        <div class="products__item">
+          <div class="products__title">
+            Металлические<br/>
+            каркасы
+            <img src="pictures/arrow-product.svg" alt="arrow">
+          </div>
+          <div class="products__img">
+            <img src="pictures/item3.png" alt="product">
+          </div>
+        </div>
+        <div class="products__item">
+          <div class="products__title">
+            Строительные <br/>
+            конструкции
+            <img src="pictures/arrow-product.svg" alt="arrow">
+          </div>
+          <div class="products__img">
+            <img src="pictures/item4.png" alt="product">
+          </div>
+        </div>
+        <div class="products__item">
+          <div class="products__title">
+            Ландшафтные<br/>
+            конструкции
+            <img src="pictures/arrow-product.svg" alt="arrow">
+          </div>
+          <div class="products__img">
+            <img src="pictures/item5.png" alt="product">
+          </div>
+        </div>
+        <div class="products__item">
+          <div class="products__title">
+            Каркасные<br/>
+            лестницы
+            <img src="pictures/arrow-product.svg" alt="arrow">
+          </div>
+          <div class="products__img">
+            <img src="pictures/item6.png" alt="product">
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+    <img src="pictures/vishka.png" alt="img" class="products__img_left">
+    <img src="pictures/vishka.png" alt="img" class="products__img_right">
+  </section>
+</body>
+
 </html>

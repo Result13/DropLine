@@ -1,0 +1,52 @@
+.products {
+    display: block;
+    background: url(../../pictures/clouds.jpg) center / cover no-repeat;
+    padding-top: 290px;
+    margin-top: -30px;
+
+    &__wrapper {
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        /* padding-top: 90px; */
+    }
+
+    &__item {
+        display: block;
+        width: calc(50% - 15px);
+        padding: 0 85px;
+        margin-top: 90px;
+        &:nth-child(2){
+            & .products__title img{
+                right: 0;
+            }
+        }
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 120%;
+        color: #1c2231;
+        width: max-content;
+        position: relative;
+        img {
+            float: right;
+            margin-left: 14px;
+            position: absolute;
+            top: 8px;
+            right: -35px;
+        }
+    }
+    &__img{
+        display: block;
+        margin-top: 45px;
+        img{
+            display: block;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

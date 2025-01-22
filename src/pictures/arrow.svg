@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51.781" height="6.656" viewBox="0 0 51.781 6.656">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Стрелка" class="cls-1" d="M986.73,929.874l-26.421,6.6-26.4-6.6" transform="translate(-934.438 -930.875)"/>
+</svg>

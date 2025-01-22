@@ -7,6 +7,12 @@
 }
 @font-face {
   font-family: 'TT Firs Neue';
+  src: url('/src/fonts/TTFirsNeue-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Firs Neue';
   src: url('/src/fonts/TTFirsNeue-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
@@ -58,12 +64,23 @@ h1{
 
 
 .container {
-/*   position: relative; */
+  position: relative;
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
 }
-
+.title{
+  text-align: center;
+  font-size: 52px;
+  line-height: 110%;
+  color: #2a3039;
+  font-weight: 700;
+  span{
+    font-weight: 200;
+  }
+}
 @import "blocks/header";
 @import "blocks/promo";
+@import "blocks/btn";
+@import "blocks/products";
 @import "base/media";

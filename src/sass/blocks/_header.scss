@@ -6,6 +6,7 @@
     left: 50%;
     transform: translateX(-50%);
     padding: 20px 0;
+    z-index: 9;
     &__top{
         display: flex;
         justify-content: space-between;
@@ -50,6 +51,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: 10px;
     }
     &__call{
         display: flex;
@@ -74,7 +76,7 @@
         display: flex;
         align-items: center;
         gap:34px;
-        margin-top: 20px;
+       
         width: 75%;
         &__link{
             color:#1c2231 !important;
@@ -85,7 +87,7 @@
     &__phone{
         color:#1c2231 !important;
         font-size: 22px;
-        margin-top: 20px;
+        
         font-weight: 500;
     }
 }
